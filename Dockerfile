@@ -1,6 +1,6 @@
 FROM node:latest
 MAINTAINER ADDRESS "ganeshpro"
-RUN npm i
+RUN npm install
 WORKDIR /var
 COPY package*.json ./
 COPY . .
